@@ -25,4 +25,4 @@ if __name__ == "__main__":
 		server.serve_forever(poll_interval=0.5)
 	except (IOError, SystemExit):
 		raise
-	except KeyboardInterrupt:print ("Crtl+C Pressed. Shutting down.")
+	except KeyboardInterrupt:print ("Crtl+C Pressed. Shutting down...")
